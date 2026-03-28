@@ -38,30 +38,30 @@
 33. `ls` `-h` -если  нет или не работает `man`
 34. `mkdir -p test/dir--{000..100}` `touch test/dir--{000..100}/file-{A..Z}` - создание множество файлов и папок
 35. `mkdir` — создать директорию `touch` — создать файл (или изменить существующий, но если файла с таким именем нет, то команда создаст новый, пустой)
-А выражения в скобках играют роль функции, которая выполняется в цикле и делает ручную работу за вас:
-{000..100} — пробежится по всем числам от 0 до 100
-{A..Z} — пробежится по всем буквам английского алфавита от A до Z
+36.  А выражения в скобках играют роль функции, которая выполняется в цикле и делает ручную работу за вас:
+37.  {000..100} — пробежится по всем числам от 0 до 100
+38. {A..Z} — пробежится по всем буквам английского алфавита от A до Z
 **Выполнять команду sudo без аутентификации по паролю, только если она выполняется через терминал!!!***
-вводим в терменале `sudo visudo` 
+39. вводим в терменале `sudo visudo` 
 #### пример окна `sudo visudo`
- This file MUST be edited with the 'visudo' command as root.
- Please consider adding local content in /etc/sudoers.d/ instead of
- directly modifying this file.
- See the man page for details on how to write a sudoers file.
-Defaults    env_reset
-Defaults    mail_badpass
-Defaults    secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin"
- Host alias specification
- User alias specification
- Cmnd alias specification
- User privilege specification
- root    ALL=(ALL:ALL) ALL
- Members of the admin group may gain root privileges
- admin ALL=(ALL) ALL
- Allow members of group sudo to execute any command
- sudo   ALL=(ALL:ALL) ALL
- See sudoers(5) for more information on "#include" directives:
- includedir /etc/sudoers.d
- *YOUR_USERNAME_HERE ALL=(ALL) NOPASSWD: ALL*
+ 40.  This file MUST be edited with the 'visudo' command as root.
+ 41. Please consider adding local content in /etc/sudoers.d/ instead of
+ 42. directly modifying this file.
+ 43. See the man page for details on how to write a sudoers file.
+ 44. Defaults    env_reset
+ 45. Defaults    mail_badpass
+ 46. Defaults    secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin"
+ 47. Host alias specification
+ 48. User alias specification
+ 49. Cmnd alias specification
+ 50. User privilege specification
+ 51. root    ALL=(ALL:ALL) ALL
+ 52. Members of the admin group may gain root privileges
+ 53. admin ALL=(ALL) ALL
+ 54. Allow members of group sudo to execute any command
+ 55. sudo   ALL=(ALL:ALL) ALL
+ 56. See sudoers(5) for more information on "#include" directives:
+ 57. includedir /etc/sudoers.d
+ 58. *YOUR_USERNAME_HERE ALL=(ALL) NOPASSWD: ALL*
  
-в самом низу пишем `USER ALL=(ALL) NOPASSWD: ALL` , сохраняем изменения **Ctrl + O** , выходим **Ctrl+x**
+ 59. в самом низу пишем `USER ALL=(ALL) NOPASSWD: ALL` , сохраняем изменения **Ctrl + O** , выходим **Ctrl+x**
