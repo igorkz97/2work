@@ -63,5 +63,5 @@ Defaults    secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin
  See sudoers(5) for more information on "#include" directives:
  includedir /etc/sudoers.d
  *YOUR_USERNAME_HERE ALL=(ALL) NOPASSWD: ALL*
- ---
+ 
 в самом низу пишем `USER ALL=(ALL) NOPASSWD: ALL` , сохраняем изменения **Ctrl + O** , выходим **Ctrl+x**
