@@ -109,10 +109,10 @@ username ALL = NOPASSWD : ALL
 username ALL = NOPASSWD : ALL
 ```
 -Версия Git
-- ![screen1](https://1drv.ms/i/c/322eb264f6cfa8e7/IQAeibio4AZZT6XK15rasm6JAbLgEpUYWjlvktKUwFGLkbI?e=vd6JRq)
+- ![screen1](<img width="1920" height="1080" alt="git версия" src="https://github.com/user-attachments/assets/5ebc5fd3-afeb-4805-a51c-c61fe1e6975c" />)
 -  -Устьановка Git 
-- ![screen2](https://1drv.ms/i/c/322eb264f6cfa8e7/IQCMesXEANyPSZC7lg5naP0bATLuOtaOK-cd3svKCoxewpY?e=yzjbHK)
+- ![screen2](<img width="1920" height="1080" alt="установка Git" src="https://github.com/user-attachments/assets/87a95bbf-9087-40f9-8640-f381e7313e6c" />)
 - Сделаный снимок ОС
-- [screen3](https://1drv.ms/i/c/322eb264f6cfa8e7/IQAI70HPqkqvR6_bVu8h_9l4AfNINUCRmeIlqs0HLwNmJLc?e=DtZr0z)
+- [screen3](<img width="1920" height="1080" alt="снимок машины" src="https://github.com/user-attachments/assets/f0b3c163-1b06-4fe6-b82b-fc71ca3793e7" />)
 - Удаление ОС
-- [screen4](https://1drv.ms/i/c/322eb264f6cfa8e7/IQAN_ZStKoQZTJ67aUdOp8c0AZHPWENqzXfrRQrwIWmYwr8?e=NSmjgY)
+- [screen4](<img width="1920" height="1080" alt="удаление ос машины" src="https://github.com/user-attachments/assets/2a39cdd6-b84d-4d9f-b3c1-2fe051373cf4" />)
