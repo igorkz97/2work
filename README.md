@@ -111,8 +111,8 @@ username ALL = NOPASSWD : ALL
 -Версия Git
 - ![screen1](<img width="1920" height="1080" alt="2026-03-28 (1)" src="https://github.com/user-attachments/assets/31ce53e2-06ad-4212-ba68-0f7a973a59d6" />
 -  -Устьановка Git 
-- ![screen2](<img width="1920" height="1080" alt="установка Git" src="https://github.com/user-attachments/assets/87a95bbf-9087-40f9-8640-f381e7313e6c" />)
+- ![screen2](<img width="1920" height="1080" alt="2026-03-28" src="https://github.com/user-attachments/assets/73c0bd2c-466d-4565-973e-69ca15156f77" />
 - Сделаный снимок ОС
-- [screen3](<img width="1920" height="1080" alt="снимок машины" src="https://github.com/user-attachments/assets/f0b3c163-1b06-4fe6-b82b-fc71ca3793e7" />)
+- [screen3](<img width="1920" height="1080" alt="2026-03-28 (3)" src="https://github.com/user-attachments/assets/d218c8b0-f16b-45b8-9064-44a78a67a06b" />)
 - Удаление ОС
 - [screen4](<img width="1920" height="1080" alt="удаление ос машины" src="https://github.com/user-attachments/assets/2a39cdd6-b84d-4d9f-b3c1-2fe051373cf4" />)
