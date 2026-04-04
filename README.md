@@ -45,7 +45,7 @@
 39.  вводим в терменале `sudo visudo`
 40.  Перед нами открывается текстовой документ
 41.    ## пример окна `sudo visudo`
----
+```
 # This file MUST be edited with the 'visudo' command as root.
 #
 # Please consider adding local content in /etc/sudoers.d/ instead of
@@ -104,6 +104,7 @@ root    ALL=(ALL:ALL) ALL
 
 @includedir /etc/sudoers.d
 username ALL = NOPASSWD : ALL
----
+
 в самом низу добавляем строчку 
 username ALL = NOPASSWD : ALL
+```
