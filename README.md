@@ -109,7 +109,7 @@ username ALL = NOPASSWD : ALL
 username ALL = NOPASSWD : ALL
 ```
 -Версия Git
-- ![screen1](<img width="1920" height="1080" alt="git версия" src="https://github.com/user-attachments/assets/5ebc5fd3-afeb-4805-a51c-c61fe1e6975c" />)
+- ![screen1](<img width="1920" height="1080" alt="2026-03-28 (1)" src="https://github.com/user-attachments/assets/31ce53e2-06ad-4212-ba68-0f7a973a59d6" />
 -  -Устьановка Git 
 - ![screen2](<img width="1920" height="1080" alt="установка Git" src="https://github.com/user-attachments/assets/87a95bbf-9087-40f9-8640-f381e7313e6c" />)
 - Сделаный снимок ОС
