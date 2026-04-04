@@ -108,3 +108,11 @@ username ALL = NOPASSWD : ALL
 в самом низу добавляем строчку 
 username ALL = NOPASSWD : ALL
 ```
+Версия Git
+- ![screen1](https://1drv.ms/i/c/322eb264f6cfa8e7/IQAeibio4AZZT6XK15rasm6JAbLgEpUYWjlvktKUwFGLkbI?e=vd6JRq)
+Устьановка Git 
+- ![screen2](https://1drv.ms/i/c/322eb264f6cfa8e7/IQCMesXEANyPSZC7lg5naP0bATLuOtaOK-cd3svKCoxewpY?e=yzjbHK)
+- Сделаный снимок ОС
+- [screen3](https://1drv.ms/i/c/322eb264f6cfa8e7/IQAI70HPqkqvR6_bVu8h_9l4AfNINUCRmeIlqs0HLwNmJLc?e=DtZr0z)
+- Удаление ОС
+- [screen4](https://1drv.ms/i/c/322eb264f6cfa8e7/IQAN_ZStKoQZTJ67aUdOp8c0AZHPWENqzXfrRQrwIWmYwr8?e=NSmjgY)
