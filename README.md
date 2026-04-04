@@ -116,4 +116,4 @@ username ALL = NOPASSWD : ALL
 - [screen3]<img width="1920" height="1080" alt="2026-03-28 (3)" src="https://github.com/user-attachments/assets/6f4ecf86-58e9-4a06-ba6e-679ac31342f7" />
 
 - Удаление ОС
-- [screen4](<img width="1920" height="1080" alt="удаление ос машины" src="https://github.com/user-attachments/assets/2a39cdd6-b84d-4d9f-b3c1-2fe051373cf4" />)
+- [screen4](<img width="1920" height="1080" alt="удаление ос машины" src="https://github.com/user-attachments/assets/43bd0580-d037-4857-ab41-5cef274b9526" />)
