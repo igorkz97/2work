@@ -41,27 +41,69 @@
 36.  А выражения в скобках играют роль функции, которая выполняется в цикле и делает ручную работу за вас:
 37.  {000..100} — пробежится по всем числам от 0 до 100
 38. {A..Z} — пробежится по всем буквам английского алфавита от A до Z
-**Выполнять команду sudo без аутентификации по паролю, только если она выполняется через терминал!!!***
-39. вводим в терменале `sudo visudo` 
-#### пример окна `sudo visudo`
- 40.  This file MUST be edited with the 'visudo' command as root.
- 41. Please consider adding local content in /etc/sudoers.d/ instead of
- 42. directly modifying this file.
- 43. See the man page for details on how to write a sudoers file.
- 44. Defaults    env_reset
- 45. Defaults    mail_badpass
- 46. Defaults    secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin"
- 47. Host alias specification
- 48. User alias specification
- 49. Cmnd alias specification
- 50. User privilege specification
- 51. root    ALL=(ALL:ALL) ALL
- 52. Members of the admin group may gain root privileges
- 53. admin ALL=(ALL) ALL
- 54. Allow members of group sudo to execute any command
- 55. sudo   ALL=(ALL:ALL) ALL
- 56. See sudoers(5) for more information on "#include" directives:
- 57. includedir /etc/sudoers.d
- 58. *YOUR_USERNAME_HERE ALL=(ALL) NOPASSWD: ALL*
- 
- 59. в самом низу пишем `USER ALL=(ALL) NOPASSWD: ALL` , сохраняем изменения **Ctrl + O** , выходим **Ctrl+x**
+***Выполнять команду sudo без аутентификации по паролю, только если она выполняется через терминал!!!***
+39.  вводим в терменале `sudo visudo`
+40.  Перед нами открывается текстовой документ
+41.    ## пример окна `sudo visudo`
+---
+# This file MUST be edited with the 'visudo' command as root.
+#
+# Please consider adding local content in /etc/sudoers.d/ instead of
+# directly modifying this file.
+#
+# See the man page for details on how to write a sudoers file.
+#
+Defaults        env_reset
+Defaults        secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+
+# This fixes CVE-2005-4890 and possibly breaks some versions of kdesu
+# (#1011624, https://bugs.kde.org/show_bug.cgi?id=452532)
+Defaults        use_pty
+
+# This causes mail to be sent to the mailto user if the user running
+# sudo does not enter the correct password. This is off in Debian by
+# default since Debian 14.
+#Defaults       mail_badpass
+
+# This preserves proxy settings from user environments of root
+# equivalent users (group sudo)
+#Defaults:%sudo env_keep += "http_proxy https_proxy ftp_proxy all_proxy no_proxy"
+
+# This allows running arbitrary commands, but so does ALL, and it means
+# different sudoers have their choice of editor respected.
+#Defaults:%sudo env_keep += "EDITOR"
+
+# Completely harmless preservation of a user preference.
+#Defaults:%sudo env_keep += "GREP_COLOR"
+
+# While you shouldn't normally run git as root, you need to with etckeeper
+#Defaults:%sudo env_keep += "GIT_AUTHOR_* GIT_COMMITTER_*"
+
+# Per-user preferences; root won't have sensible values for them.
+#Defaults:%sudo env_keep += "EMAIL DEBEMAIL DEBFULLNAME"
+
+# "sudo scp" or "sudo rsync" should be able to use your SSH agent.
+#Defaults:%sudo env_keep += "SSH_AGENT_PID SSH_AUTH_SOCK"
+
+# Ditto for GPG agent
+#Defaults:%sudo env_keep += "GPG_AGENT_INFO"
+
+# Host alias specification
+
+# User alias specification
+
+# Cmnd alias specification
+
+# User privilege specification
+root    ALL=(ALL:ALL) ALL
+
+# Allow members of group sudo to execute any command
+%sudo   ALL=(ALL:ALL) ALL
+
+# See sudoers(5) for more information on "@include" directives:
+
+@includedir /etc/sudoers.d
+username ALL = NOPASSWD : ALL
+---
+в самом низу добавляем строчку 
+username ALL = NOPASSWD : ALL
