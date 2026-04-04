@@ -115,5 +115,4 @@ username ALL = NOPASSWD : ALL
 - Сделаный снимок ОС
 - ![screen3]<img width="1920" height="1080" alt="2026-03-28 (3)" src="https://github.com/user-attachments/assets/6f4ecf86-58e9-4a06-ba6e-679ac31342f7" />
   скриншот удаления системы повреждён и кидается ломанная ссылка 
-[sreen4](<img width="1920" height="1080" alt="удаление ос машины" src="https://github.com/user-attachments/assets/2d75778c-a257-4de8-b9ff-a8e9be6ad235" />
-)
+[sreen4](<img width="1920" height="1080" alt="удаление ос машины" src="https://github.com/user-attachments/assets/2d75778c-a257-4de8-b9ff-a8e9be6ad235" />)
